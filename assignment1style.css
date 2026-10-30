@@ -6,21 +6,36 @@
     align-items: flex-start;
 }
 
-
-.member{
-    text-align: center;
+figure{
+    text-align: left;
+    padding: 20px;
+    box-sizing: content-box;
+    
+   
+}   
+#sir{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: wrap;
 }
 
-.member img {
-width: 200px;
-height: 250px;
-object-fit: cover;
-}
+figimage{
 
-.member h3{
+    
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+}   
+
+figcaption{
+    
     margin-top: 10px;
-}
-
+    font-weight: bold;
+    font-size: 1.2em;
+    text-align: bottom;
+}   
 
 nav{
     text-align: center;
