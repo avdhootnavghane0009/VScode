@@ -1,0 +1,75 @@
+.team{
+    display: flex;
+    flex-direction: row;
+    gap: 100px;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+
+.member{
+    text-align: center;
+}
+
+.member img {
+width: 200px;
+height: 250px;
+object-fit: cover;
+}
+
+.member h3{
+    margin-top: 10px;
+}
+
+
+nav{
+    text-align: center;
+    padding: 50px;
+    box-sizing: content-box;
+    
+}
+
+footer{
+    text-align: center;
+    padding: 50px;
+    box-sizing: content-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+caption{
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+th,td{
+    border: 1px solid #000;
+    padding: 10px;
+    text-align: center;
+}
+th{
+    background-color: #1e3a8a;
+    color: white;
+}
+tbody tr:nth-child(odd){
+    background-color: #f1f5f9;
+}
